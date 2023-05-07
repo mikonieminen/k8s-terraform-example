@@ -1,0 +1,13 @@
+.terraform/
+
+# We don't want to put Terraform state under git, if shared
+# state is needed, se S3 or Consul backend.
+terraform.tfstate
+terraform.tfstate.backup
+terraform.tfstate.d/
+
+# We want to keep Terraform input variables out of git, because
+# this file will have user specific changes.
+terraform.tfvars
+
+certs/
