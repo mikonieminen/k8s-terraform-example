@@ -62,7 +62,7 @@ EOF
 
 After this, restart K3s: `sudo systemctl restart k3s`.
 
-:exclamation: If using FirewallD, there are some (issues with K8s/K3s and FirewallD](https://www.willhaley.com/blog/k3s-arch-linux/)
+:exclamation: If using FirewallD, there are some [issues with K8s/K3s and FirewallD](https://www.willhaley.com/blog/k3s-arch-linux/)
 
 ## Local Docker Registry
 
